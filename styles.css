@@ -19,6 +19,7 @@ body {
     width: 168px;
     height: 40px;
     border-radius: 5px;
+    border: 1px solid #B3B3B3;
 }
 
 .card-body {
@@ -85,6 +86,7 @@ body {
 }
 
 .row {
+    background-color: white;
     margin-right: -144px;
     margin-left: 131px;
 }
