@@ -3,7 +3,6 @@ body {
 }
 
 .employer-list {
-    margin-left: 383px;
     width: 141px;
     height: 58px;
     font-family: Poppins;
@@ -11,11 +10,12 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
+    margin-left: 147px;
     color: #000000;
 }
 
-.card-body {
-    text-align: center;
+.employer-list-btn {
+    margin-left: 724px;
 }
 
 .card {
