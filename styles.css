@@ -1,8 +1,5 @@
-body {
-    background-color: #F4F4F4;
-}
-
-.employer-list {
+.verify {
+    padding-left: 146px;
     width: 141px;
     height: 58px;
     font-family: Poppins;
@@ -10,12 +7,26 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
-    margin-left: 147px;
     color: #000000;
 }
 
 .employer-list-btn {
-    margin-left: 724px;
+    width: 168px;
+    height: 40px;
+    left: 858px;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.cards {
+    position: absolute;
+    left: 370px;
+}
+
+.card-body {
+    text-align: center;
 }
 
 .card {
@@ -75,12 +86,4 @@ body {
     border-radius: 5px;
     background: #FFFFFF;
     border-radius: 5px;
-}
-
-.main1 {
-   margin-left: 411px;
-}
-
-.main2 {
-   margin-left: 411px;
 }
