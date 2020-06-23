@@ -1,25 +1,51 @@
-body {
-    background-color: #F4F4F4;
+.container {
+    display: grid;
+    grid-column-gap: 93px;
+    background: #F4F4F4;
+    border-radius: 8px;
 }
 
-.employer-list {
-    margin-left: 20px;
-    width: 141px;
-    height: 58px;
+.main {
+    display: grid;
+    background: #FFFFFF;
+}
+
+.verify {
+    grid-column-start: 3;
+}
+
+.employer-list-btn {
+    grid-column-end: 11;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.card_box {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 3;
+    grid-row-gap: 10px;
+}
+
+.verify {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
     color: #000000;
+    margin-right: 8px;
 }
 
-.employer-list-btn {
-    left: 871px;
-    width: 168px;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #B3B3B3;
+.card {
+    display: flex;
+    width: 320px;
+    height: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(167, 167, 167, 0.25);
 }
 
 .card-body {
@@ -85,8 +111,16 @@ body {
     border-radius: 5px;
 }
 
-.row {
-    background-color: white;
-    margin-right: -144px;
-    margin-left: 131px;
+@media (max-width: 500px) {
+    .card_box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+    }
+    .employer-list-btn {
+        left: 180px;
+    }
 }
