@@ -1,8 +1,8 @@
 .top {
     display: grid;
-    grid-gap: 142px;
+    grid-gap: 86px;
     border-radius: 8px;
-    margin-right: 505px;
+    margin-right: 148px;
 }
 
 .main {
@@ -44,8 +44,8 @@
 }
 
 .card {
-    width: 320px;
-    height: 376px;
+    width: 365px;
+    height: 399px;
     background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(167, 167, 167, 0.25);
 }
@@ -110,7 +110,7 @@
         display: flex;
         justify-content: center;
     }
-    .container {
+    .top {
         display: flex;
     }
     .employer-list-btn {
